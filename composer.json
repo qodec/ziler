@@ -1,0 +1,25 @@
+{
+    "name": "qodec/ziler",
+    "description": "Coroutine-safe request helpers and file-based routing for Swoole. A maintained replacement for the parts of leocavalcante/siler that Swoole apps use.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "L eye",
+            "email": "leyume@yahoo.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "ext-swoole": ">=4.8"
+    },
+    "autoload": {
+        "files": [
+            "src/Swoole.php",
+            "src/Route.php"
+        ]
+    },
+    "scripts": {
+        "test": "php tests/run.php"
+    }
+}
